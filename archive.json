@@ -1,0 +1,97 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-06-01T00:01:41.543771+00:00",
+  "repo": "bifurcation/mls-userinfo-vc",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOI7GWf85L1x1-",
+      "title": "RLB Edits",
+      "url": "https://github.com/bifurcation/mls-userinfo-vc/pull/1",
+      "state": "MERGED",
+      "author": "bifurcation",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-03-12T17:44:12Z",
+      "updatedAt": "2023-03-12T17:48:03Z",
+      "baseRepository": "bifurcation/mls-userinfo-vc",
+      "baseRefName": "main",
+      "baseRefOid": "75174c87abe785389a872cc5d80a23ebac5bf39c",
+      "headRepository": "bifurcation/mls-userinfo-vc",
+      "headRefName": "rlb-notes",
+      "headRefOid": "caeb609dd06b26f317d8696d24f7e2be260bbfbb",
+      "closedAt": "2023-03-12T17:48:03Z",
+      "mergedAt": "2023-03-12T17:48:02Z",
+      "mergedBy": "suhasHere",
+      "mergeCommit": {
+        "oid": "dda2a6bbbaad5db6cd513ad398a60020ff671776"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOI7GWf85PorAX",
+          "commit": {
+            "abbreviatedOid": "caeb609"
+          },
+          "author": "suhasHere",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-12T17:47:58Z",
+          "updatedAt": "2023-03-12T17:47:58Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
