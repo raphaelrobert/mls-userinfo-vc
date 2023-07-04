@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-07-02T00:02:01.192299+00:00",
+  "timestamp": "2023-07-04T00:02:04.530652+00:00",
   "repo": "bifurcation/mls-userinfo-vc",
   "labels": [
     {
@@ -92,6 +92,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOI7GWf85Uj7at",
+      "title": "Reframe as 'Additional MLS Credentials'",
+      "url": "https://github.com/bifurcation/mls-userinfo-vc/pull/2",
+      "state": "OPEN",
+      "author": "bifurcation",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This PR reframes the document as an \"Additional MLS Credentials\" document instead of just a UserInfo VC document.  We do this in order to add a \"multi-credential\" format.",
+      "createdAt": "2023-07-03T21:45:59Z",
+      "updatedAt": "2023-07-03T21:45:59Z",
+      "baseRepository": "bifurcation/mls-userinfo-vc",
+      "baseRefName": "main",
+      "baseRefOid": "dda2a6bbbaad5db6cd513ad398a60020ff671776",
+      "headRepository": "bifurcation/mls-userinfo-vc",
+      "headRefName": "multi",
+      "headRefOid": "d37b3a924afea650ca9992a34b5b21421fe3c7e3",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
