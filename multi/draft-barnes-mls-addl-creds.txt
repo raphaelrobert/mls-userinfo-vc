@@ -5,7 +5,7 @@
 Messaging Layer Security                                       R. Barnes
 Internet-Draft                                             S. Nandakumar
 Intended status: Informational                                     Cisco
-Expires: 4 January 2024                                      3 July 2023
+Expires: 6 January 2024                                      5 July 2023
 
 
                        Additional MLS Credentials
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 January 2024.
+   This Internet-Draft will expire on 6 January 2024.
 
 Copyright Notice
 
@@ -130,8 +130,8 @@ Table of Contents
    This specification uses terms from the MLS Protocol specification.
    In particular, we refer to the MLS Credential object, which
    represents an association between a client's identity and the
-   signature key that the client will use to messages in the MLS key
-   exchange protocol.
+   signature key pair that the client will use to sign messages in the
+   MLS key exchange protocol.
 
 3.  UserInfo Verifiable Credentials
 
@@ -355,7 +355,7 @@ Table of Contents
      CredentialBinding bindings<V>;
    } WeakMultiCredential;
 
-   The two types of credential are processed in exactly the same way.
+   The two types of credentials are processed in exactly the same way.
    The only difference is in how they are treated when evaluating
    support by other clients, as discussed below.
 
@@ -379,7 +379,8 @@ Table of Contents
 
    The cipher_suite for a credential is NOT REQUIRED to match the cipher
    suite for the MLS group in which it is used, but MUST meet the
-   support requirements discussed below.
+   support requirements with regard to support by group members
+   discussed below.
 
 4.2.  Verifying a Multi-Credential
 
@@ -394,7 +395,7 @@ Table of Contents
    *  The signature field is valid with respect to the signature_key
       value in the leaf node.
 
-   *  Each members of the group supports the credential type of the
+   *  Each member of the group supports the credential type of the
       credential (multi or weak-multi), and in addition:
 
       -  For multi: Each member supports the cipher suite and credential
@@ -408,7 +409,7 @@ Table of Contents
 5.  Security Considerations
 
    The validation procedures for UserInfoVC credentials verify that a
-   JWT came from a given issuer.  It doesn't veirfy that the issuer is
+   JWT came from a given issuer.  It doesn't verify that the issuer is
    authorative for the claimed attributes.  The client needs to verify
    that the issuer is trusted to assert the claimed attributes.
 
