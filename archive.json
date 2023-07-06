@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-07-04T00:02:04.530652+00:00",
+  "timestamp": "2023-07-06T00:01:52.452817+00:00",
   "repo": "bifurcation/mls-userinfo-vc",
   "labels": [
     {
@@ -105,19 +105,64 @@
       "labels": [],
       "body": "This PR reframes the document as an \"Additional MLS Credentials\" document instead of just a UserInfo VC document.  We do this in order to add a \"multi-credential\" format.",
       "createdAt": "2023-07-03T21:45:59Z",
-      "updatedAt": "2023-07-03T21:45:59Z",
+      "updatedAt": "2023-07-05T17:51:49Z",
       "baseRepository": "bifurcation/mls-userinfo-vc",
       "baseRefName": "main",
       "baseRefOid": "dda2a6bbbaad5db6cd513ad398a60020ff671776",
       "headRepository": "bifurcation/mls-userinfo-vc",
       "headRefName": "multi",
-      "headRefOid": "d37b3a924afea650ca9992a34b5b21421fe3c7e3",
+      "headRefOid": "68ea4e89a3bdbb8788dcf63590f26a1c06df1247",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOI7GWf85aHtRu",
+          "commit": {
+            "abbreviatedOid": "d37b3a9"
+          },
+          "author": "suhasHere",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "Minor nits, but overall looks good to me",
+          "createdAt": "2023-07-04T03:02:37Z",
+          "updatedAt": "2023-07-04T03:21:11Z",
+          "comments": [
+            {
+              "originalPosition": 76,
+              "body": "s/use to/use for /",
+              "createdAt": "2023-07-04T03:02:38Z",
+              "updatedAt": "2023-07-04T03:21:11Z"
+            },
+            {
+              "originalPosition": 210,
+              "body": "s/MUST meet the support / MUST support",
+              "createdAt": "2023-07-04T03:06:03Z",
+              "updatedAt": "2023-07-04T03:21:11Z"
+            },
+            {
+              "originalPosition": 225,
+              "body": "s/members/member",
+              "createdAt": "2023-07-04T03:07:18Z",
+              "updatedAt": "2023-07-04T03:21:11Z"
+            },
+            {
+              "originalPosition": 238,
+              "body": "s/veirfy/verify",
+              "createdAt": "2023-07-04T03:08:17Z",
+              "updatedAt": "2023-07-04T03:21:11Z"
+            },
+            {
+              "originalPosition": 185,
+              "body": "s/credential/credentials/",
+              "createdAt": "2023-07-04T03:11:03Z",
+              "updatedAt": "2023-07-04T03:21:11Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
