@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-07-09T00:01:42.526527+00:00",
+  "timestamp": "2023-07-11T00:01:48.409177+00:00",
   "repo": "bifurcation/mls-userinfo-vc",
   "labels": [
     {
@@ -98,24 +98,26 @@
       "id": "PR_kwDOI7GWf85Uj7at",
       "title": "Reframe as 'Additional MLS Credentials'",
       "url": "https://github.com/bifurcation/mls-userinfo-vc/pull/2",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "bifurcation",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "This PR reframes the document as an \"Additional MLS Credentials\" document instead of just a UserInfo VC document.  We do this in order to add a \"multi-credential\" format.",
       "createdAt": "2023-07-03T21:45:59Z",
-      "updatedAt": "2023-07-05T17:51:49Z",
+      "updatedAt": "2023-07-10T15:17:39Z",
       "baseRepository": "bifurcation/mls-userinfo-vc",
       "baseRefName": "main",
       "baseRefOid": "dda2a6bbbaad5db6cd513ad398a60020ff671776",
       "headRepository": "bifurcation/mls-userinfo-vc",
       "headRefName": "multi",
-      "headRefOid": "68ea4e89a3bdbb8788dcf63590f26a1c06df1247",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "cbb467cfb3033a99c74208a2f8161238f8ac245c",
+      "closedAt": "2023-07-10T15:17:39Z",
+      "mergedAt": "2023-07-10T15:17:39Z",
+      "mergedBy": "bifurcation",
+      "mergeCommit": {
+        "oid": "761654dd92dccd14e12d02bb3cba3eabd215e6c9"
+      },
       "comments": [],
       "reviews": [
         {
@@ -159,6 +161,59 @@
               "body": "s/credential/credentials/",
               "createdAt": "2023-07-04T03:11:03Z",
               "updatedAt": "2023-07-04T03:21:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOI7GWf85avKN_",
+          "commit": {
+            "abbreviatedOid": "f4ba482"
+          },
+          "author": "suhasHere",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-07-10T15:06:00Z",
+          "updatedAt": "2023-07-10T15:06:01Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "s/credential/crdentials",
+              "createdAt": "2023-07-10T15:06:01Z",
+              "updatedAt": "2023-07-10T15:06:01Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOI7GWf85avL27",
+          "commit": {
+            "abbreviatedOid": "f4ba482"
+          },
+          "author": "suhasHere",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-07-10T15:08:49Z",
+          "updatedAt": "2023-07-10T15:08:49Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOI7GWf85avP-r",
+          "commit": {
+            "abbreviatedOid": "f4ba482"
+          },
+          "author": "bifurcation",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-07-10T15:17:28Z",
+          "updatedAt": "2023-07-10T15:17:28Z",
+          "comments": [
+            {
+              "originalPosition": 11,
+              "body": "```suggestion\r\nThis specification defines two new kinds of credentials for use within the\r\n```",
+              "createdAt": "2023-07-10T15:17:28Z",
+              "updatedAt": "2023-07-10T15:17:28Z"
             }
           ]
         }
